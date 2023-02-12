@@ -13,12 +13,12 @@ export const SportsTypes = () => {
         <Box
           sx={{
             p: {
-              xs: "35px 20px 50px 20px",
+              xs: 0,
               sm: "10px 10px 50px 20px",
               md: "0 20px 0 24px",
             },
-            maxWidth: { xs: "100%", sm: "724px" },
-            width: { xs: "95%", sm: "100%" },
+            maxWidth: "700px",
+            width: "100%",
             background: "#02BE83",
             display: "flex",
             alignItems: "center",
@@ -33,13 +33,14 @@ export const SportsTypes = () => {
           <CardMedia
             image={Football}
             sx={{
-              m: { xs: "-20px 0 -8px ", sm: "0 -12px 0  -18px", md: "0" },
+              m: { xs: "15px 0 -8px ", sm: "0 -12px 0  -18px", md: "0" },
               width: { xs: "290px", sm: "170px" },
               height: { xs: "260px", sm: "170px" },
             }}
           />
           <Box
             sx={{
+              mb: { xs: "50px", sm: 0 },
               maxWidth: { xs: "265px", sm: "180px", md: "265px" },
               textAlign: { xs: "center", sm: "start" },
             }}
@@ -102,13 +103,12 @@ export const SportsTypes = () => {
         <Box
           sx={{
             p: {
-              xs: "0 20px 50px 20px",
+              xs: "1 20px 50px 20px",
               sm: "0 20px 50px 10px",
               md: "0 24px 0 20px",
             },
-            minHeight: "448px",
-            maxWidth: { xs: "100%", sm: "724px" },
-            width: { xs: "95%", sm: "100%" },
+            maxWidth: "700px",
+            width: "100%",
             background: "#0A083A",
             display: "flex",
             alignItems: "center",
@@ -123,11 +123,12 @@ export const SportsTypes = () => {
             sx={{
               width: { xs: "290px", sm: "167px" },
               height: { xs: "260px", sm: "187px" },
-              m: { xs: "50px 0 40px", sm: "0 -15px 0  -20px", md: 0 },
+              m: { xs: "60px 0 40px", sm: "0 -15px 0  -20px", md: 0 },
             }}
           />
           <Box
             sx={{
+              mb: { xs: "50px", sm: "0" },
               maxWidth: { xs: "265px", sm: "180px", md: "265px" },
               textAlign: { xs: "center", sm: "start" },
             }}
